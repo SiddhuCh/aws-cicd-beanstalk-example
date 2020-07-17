@@ -15,8 +15,8 @@ phases:
     - echo "Entered the post-build phase"
     - mvn clean
     - mvn package
-    #- mv target/ ./
+    ##- mv target/ ./
 artifacts:
   files:
     - target/**/*
-    #- deploy/**/*
+    ##- deploy/**/*
