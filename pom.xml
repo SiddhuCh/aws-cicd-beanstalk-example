@@ -55,7 +55,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<executions>
 					<execution>
-						<id>jar-exploded</id>
+						<id>war-exploded</id>
 						<configuration>
 							<webappDirectory>target/deploy</webappDirectory>
 							<archiveClasses>true</archiveClasses>
